@@ -1,0 +1,63 @@
+@import"../../../../src/sass/variable.scss";
+
+.hunts{
+    text-align: center;
+    margin-top:-15px;
+    background-color: $container-clr;
+
+    & .house-rent{
+        color:$btn-clr;
+        font-weight:500;
+    }
+
+    & .hunts-hunt{
+        color:$text-clr;
+        font-family: 'Kanit', sans-serif;
+    }
+}
+
+
+
+.hunt-container{
+    height: 350px;
+    width: 300px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom:20px;
+    margin-left: 75px;
+    margin-right: auto;
+
+   
+    & .hunt-image{
+        width:300px;
+        height: auto;
+    }
+
+    & .hunt-name{
+        color: $text-clr;
+    }
+
+    & .details-text{
+        color:$text-clr3;
+    }
+
+    & .view-details-btn{
+        width:auto;
+        height:40px;
+        background-color: $btn-clr;
+        color: $text-clr2;
+        border-radius: 5px;
+    }
+
+    & .price-text{
+        font-weight:800;
+        font-style:bold;
+        color: $btn-clr;
+        text-shadow: 1px 1px solid gray;
+    }
+    
+}
+
+
+

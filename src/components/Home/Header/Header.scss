@@ -1,0 +1,48 @@
+@import '../../../../src/sass/variable.scss';
+
+.header-container {
+ 
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    
+    & .header-sub-container {
+      margin-top:-320px;
+    }
+
+    & .header-bg{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    & .home-title {
+       color: $text-clr2;
+       font-family: 'Kanit', sans-serif;
+       font-size: 50px;
+       text-shadow: 1px 2px solid lightgray;
+    }
+
+    .home-title:hover{
+      color: $text-clr2;
+       text-shadow:2px 2px solid cyan;
+    }
+
+    & .search-input {
+        width:400px;
+        height:40px;
+        border-radius: 5px;
+    }
+
+    & .search-btn {
+        width:auto;
+        height:40px;
+        background-color: $btn-clr;
+        color: $text-clr2;
+        border-radius: 5px;
+    }
+}
+
+h3{
+  color: $text-clr;
+}

@@ -1,0 +1,25 @@
+@import"../../../../src/sass/variable.scss";
+
+.house-rent{
+    font-weight:900;
+}
+
+.service-container{
+    height: auto;
+    width:310px;
+    text-align: center;
+    margin-left:80px;
+
+   & .service-logo{
+        width:100px;
+        height: auto;
+    }
+
+    & .service-title{
+       color:$text-clr;
+    }
+
+    & .service-details{
+        color:$text-clr3;
+     }
+}

@@ -1,0 +1,19 @@
+@import"../../../../src/sass/variable.scss";
+
+.footer-container{
+    width: 100%;
+    height: 500px;
+    background-color: $btn-clr;
+    color: $text-clr2;
+
+    & a{
+        text-decoration: none;
+        color:whitesmoke;
+    }
+    
+    & .copy-right{
+        text-align: center;
+        color: $text-clr3;
+        margin-top:100px;
+    }
+}

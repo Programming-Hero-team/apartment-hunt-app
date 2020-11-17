@@ -1,0 +1,92 @@
+
+@import '../../../../src/sass/variable.scss';
+.hunt-header-container{
+    width:100%;
+    height: 300px;
+    text-align: center;
+
+    & .hunt2-header-img{
+        width:100%;
+        height: 250px;
+        
+      
+    }
+
+
+    & .hunt2-header-title{
+        margin-top:-150px;
+        color: $text-clr2;
+        font-family: 'Kanit', sans-serif;
+        font-size: 40px;
+        text-shadow: 1px 2px solid lightgray;
+
+    }
+}
+/*===== Home/Rent House details container ====*/
+.HomeDetails-all-container{
+    margin-left:100px;
+     
+    & p{
+        font-family: 'Crete Round', serif;
+        font-size:20px;
+        color: $text-clr3;
+    }
+
+    & h2{
+        font-family: 'Crete Round', serif;
+        font-size:28px;
+        font-weight:900;
+        color: $text-clr;
+    }
+
+    & h4{
+        font-family: 'Crete Round', serif;
+        font-size:24px;
+        font-weight:600;
+        color: $text-clr;
+    }
+
+    .home-details-container{
+        
+        & .home-details-image{
+            width:840px;
+            height: auto;
+        }
+    
+    }
+    
+    .image-image-details-container{
+     
+    
+        & .home-details-sub-image{
+            height: 106px;
+            width:auto;
+            margin-top: 20px;
+            margin-bottom:20px;
+            margin-right:30px;
+        }
+    }
+
+   
+}
+
+
+
+    .details-title-text{
+        font-family: 'Crete Round', serif;
+        font-size:28px;
+
+
+        & .hunt-details-name{
+           margin-right: 480px;
+        }
+
+        & .details-price{
+            color: $btn-clr;
+        }
+    }
+   
+
+
+
+
